@@ -21,12 +21,17 @@
 		},
 		{
 			"Name": "OpenXR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SteamVR",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Win64",
-				"Linux",
-				"Android",
-				"HoloLens"
+				"Linux"
 			]
 		}
 	]

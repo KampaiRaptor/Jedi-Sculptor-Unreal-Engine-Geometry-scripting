@@ -1,0 +1,18 @@
+{
+	"source": "UE",
+	"applications": [
+		{
+			"app_key": "application.generated.ue.first-person-bp-game-template-26001984.unrealeditor.exe",
+			"launch_type": "url",
+			"url": "steam://launch/",
+			"action_manifest_path": "C:/Users/fansi/Documents/GitHub/GeometryScripting/Config/SteamVRBindings/steamvr_manifest.json",
+			"strings":
+			{
+				"en_us":
+				{
+					"name": "First Person BP Game Template-26001984 [UE Editor]"
+				}
+			}
+		}
+	]
+}

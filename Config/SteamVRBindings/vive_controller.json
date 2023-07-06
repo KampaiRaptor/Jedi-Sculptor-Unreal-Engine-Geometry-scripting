@@ -1,0 +1,221 @@
+{
+	"name": "Default bindings for Vive",
+	"controller_type": "vive_controller",
+	"last_edited_by": "UnrealEngine",
+	"bindings":
+	{
+		"/actions/main":
+		{
+			"sources": [
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/GrabLeft"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/GrabRight"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/application_menu",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/MenuToggleLeft"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/application_menu",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/MenuToggleRight"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/TriggerLeft"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/TriggerRight"
+						}
+					}
+				},
+				{
+					"mode": "scalar_constant",
+					"path": "/user/hand/left/input/grip",
+					"inputs":
+					{
+						"value":
+						{
+							"output": "/actions/main/in/GrabAxisLeft axis"
+						}
+					}
+				},
+				{
+					"mode": "scalar_constant",
+					"path": "/user/hand/right/input/grip",
+					"inputs":
+					{
+						"value":
+						{
+							"output": "/actions/main/in/GrabAxisRight axis"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/left/input/trackpad",
+					"inputs":
+					{
+						"position":
+						{
+							"output": "/actions/main/in/MovementAxisLeft_X,MovementAxisLeft_Y X Y_axis2d"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/right/input/trackpad",
+					"inputs":
+					{
+						"position":
+						{
+							"output": "/actions/main/in/MovementAxisRight_X,MovementAxisRight_Y X Y_axis2d"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/SpectatorFOV axis"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/SpectatorFOV axis"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/TriggerAxisLeft axis"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/TriggerAxisRight axis"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/SpectatorFOV axis"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/SpectatorFOV axis"
+						}
+					}
+				}
+			],
+			"poses": [
+				{
+					"output": "/actions/main/in/controllerleft",
+					"path": "/user/hand/left/pose/raw",
+					"requirement": "optional"
+				},
+				{
+					"output": "/actions/main/in/controllerright",
+					"path": "/user/hand/right/pose/raw"
+				}
+			],
+			"skeleton": [
+				{
+					"output": "/actions/main/in/skeletonleft",
+					"path": "/user/hand/left/input/skeleton/left"
+				},
+				{
+					"output": "/actions/main/in/skeletonright",
+					"path": "/user/hand/right/input/skeleton/right"
+				}
+			],
+			"haptics": [
+				{
+					"output": "/actions/main/out/vibrateleft",
+					"path": "/user/hand/left/output/haptic"
+				},
+				{
+					"output": "/actions/main/out/vibrateright",
+					"path": "/user/hand/right/output/haptic"
+				}
+			]
+		}
+	},
+	"description": ""
+}

@@ -11,8 +11,9 @@ The system works with any static mesh. I hope to return to it once geometry scri
 
 ## Gameplay
 
-![ezgif com-optimize (2)](https://github.com/KampaiRaptor/GeometryScripting/assets/120315901/5ac54bf4-f987-456b-bb51-7fce07ea2842)
-![ezgif com-optimize (3)](https://github.com/KampaiRaptor/GeometryScripting/assets/120315901/13059890-1944-40c3-82ed-5f04773957eb)
+![ezgif com-optimize (3)](https://github.com/KampaiRaptor/Jedi-Sculptor-Unreal-Engine-Geometry-scripting/assets/120315901/7e3cc88e-5203-4f5a-b3f5-1b2597788dde)
+
+![ezgif com-optimize (2)](https://github.com/KampaiRaptor/Jedi-Sculptor-Unreal-Engine-Geometry-scripting/assets/120315901/6af6ee91-9292-41f3-93b7-1dc0a3daa920)
 
 
 ## Credits 

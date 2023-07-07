@@ -7,6 +7,8 @@ What would it look like if there was a jedi sculptor? Would he use lightsaber?
 
 The system works with any static mesh. I hope to return to it once geometry scripting works a bit more practically in game.
 
+//VR is there just coz it looks cooler, not required at all. 
+
 ## Gameplay
 
 ![ezgif com-optimize (2)](https://github.com/KampaiRaptor/GeometryScripting/assets/120315901/5ac54bf4-f987-456b-bb51-7fce07ea2842)

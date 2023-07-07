@@ -23,7 +23,10 @@
 			"Name": "OpenXR",
 			"Enabled": false,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Linux",
+				"Android",
+				"HoloLens"
 			]
 		},
 		{

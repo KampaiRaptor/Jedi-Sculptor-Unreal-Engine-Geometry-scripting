@@ -1,7 +1,7 @@
 # Jedi Sculptor
 
 This project was mainly exploration in Geometry scripting. 
-I end up making a small thing I call Jedi sculptor.
+I ended up making a small thing I call Jedi sculptor.
 
 What would it look like if there was a jedi sculptor? Would he use lightsaber?
 
